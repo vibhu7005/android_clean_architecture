@@ -2,4 +2,14 @@
 plugins {
     id("com.android.application") version "8.2.0" apply false
     id("org.jetbrains.kotlin.android") version "1.9.10" apply false
+    id("org.jetbrains.kotlin.jvm") version "1.9.10" apply false
+}
+
+buildscript{
+    ext.coro
+}
+
+ext {
+    compileSdkVersion = "5.4.0"
+
 }

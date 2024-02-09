@@ -36,6 +36,9 @@ android {
 }
 
 dependencies {
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:$projectVers")
+
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")

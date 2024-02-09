@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "android_clean_architecture"
 include(":app")
- 
+include(":core")
